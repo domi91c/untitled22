@@ -1,0 +1,26 @@
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+              xmlns:tools="http://schemas.android.com/tools"
+              android:orientation="horizontal"
+              android:layout_width="fill_parent"
+              android:layout_height="fill_parent"
+              android:id="@+id/mainParent"
+        >
+
+    <ScrollView
+            android:layout_width="fill_parent"
+            android:layout_height="fill_parent">
+
+
+        <fragment android:name="com.example.untitled22.MainActivity$DrinkFormFragment"
+                  android:id="@+id/drink_form_fragment"
+                  android:layout_width="fill_parent"
+                  android:layout_height="wrap_content"
+                  tools:layout="@layout/fragment_main"/>
+
+
+
+
+    </ScrollView>
+</LinearLayout>
+
+
